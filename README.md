@@ -13,7 +13,7 @@ Open your terminal and go to the directory where you want to clone the project.
 Run this command in the terminal, preferably in your code editor: (Make sure you have git installed)
 - git clone https://github.com/GitHubUser101521/user-auth-project
 - npm install
-- Install and configure tailwind v4.0 (please refer to tailwindcss.com for official documentation)
+- Install and configure tailwind v4.0 (please refer to [tailwindcss.com](https://tailwindcss.com) for official documentation)
 - npx json-server db.json (the json file is provided in the root directory, check for data structure example)
 - npm run dev (or the script configured for running development in package.json)
 
