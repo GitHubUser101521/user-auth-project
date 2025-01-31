@@ -1,0 +1,59 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+body {
+    background-color: #F7FAFC;
+}
+
+.bg-dark-green {
+    background-color: #1C4532;
+}
+
+.dark-green {
+    color: #1C4532;
+}
+
+label {
+    @apply text-gray-600 mb-2;
+}
+
+.input-border {
+    @apply border border-gray-600 p-2 rounded-sm mb-4;
+}
+
+.link {
+    @apply underline underline-offset-2 font-bold cursor-pointer;
+    color: #1C4532;
+}
+
+.or-divider::before,
+.or-divider::after {
+    content: "";
+    flex-grow: 1;
+    border-top: 1px solid gray;
+}
+
+.formik-error {
+    @apply text-sm text-red-500 -mt-3
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #1C4532;
+    height: 100vh;
+}
+
+.grid > div {
+    background-color: #F7FAFC;
+    padding: 1rem;
+    border-radius: .5rem;
+}
